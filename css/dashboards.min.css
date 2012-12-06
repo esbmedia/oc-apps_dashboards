@@ -1,0 +1,49 @@
+/**
+* ownCloud - Dashboards plugin
+*
+* @author Xavier Beurois
+* @copyright 2012 Xavier Beurois www.djazz-lab.net
+* 
+* This library is free software; you can redistribute it and/or
+* modify it under the terms of the GNU AFFERO GENERAL PUBLIC LICENSE
+* License as published by the Free Software Foundation; either 
+* version 3 of the License, or any later version.
+* 
+* This library is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU AFFERO GENERAL PUBLIC LICENSE for more details.
+*  
+* You should have received a copy of the GNU Lesser General Public 
+* License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+* 
+*/
+
+body{min-width:990px;}
+
+#dashboard_link{position:absolute;right:21.2em;top:1.2em;-moz-transition:opacity 500ms ease 0s;-webkit-transition:opacity 500ms ease 0s;-o-transition:opacity 500ms ease 0s;opacity:0.3;}
+#dashboard_link:hover{opacity:1;cursor:pointer;}
+
+#dashboards_panel{margin:0 auto;position:absolute;width:100%;min-width:990px;}
+#dashboards_panel div.dashboards_panel_main{color:#FFF;height:80%;padding:2em;margin:0 auto;position:relative;width:90%;-moz-box-shadow:0px 0px 12px #000;-webkit-box-shadow:0px 0px 12px #000;background:transparent url("%appswebroot%/apps/dashboards/img/bg.png") repeat scroll 0 0;z-index:99;display:none;min-width:894px;min-height:476px;top:3em;}
+
+#dashboards_panel div.dashboards_panel_main div.dashboard-elt{border:0 none;-moz-border-radius:10px;-webkit-border-radius:10px;height:43%;margin-bottom:2em;position:absolute;width:47%;}
+#dashboards_panel div.dashboards_panel_main div.dashboard-elt:hover{opacity:1;cursor:pointer;}
+#dashboards_panel div.dashboards_panel_main div.dashboard-elt div.dashelt_inner{height:100%;width:100%;}
+#dashboards_panel div.dashboards_panel_main div.dashboard-elt div.dashelt_inner h1 img.edit{float:right;margin-right:0.2em;margin-top:0.2em;cursor:pointer;}
+#dashboards_panel div.dashboards_panel_main div.dashboard-elt-none{border:1px dashed #666;text-align:center;-moz-transition:opacity 50ms ease 0s;-webkit-transition:opacity 50ms ease 0s;-o-transition:opacity 50ms ease 0s;opacity:0.3;}
+#dashboards_panel div.dashboards_panel_main div.dashboard-elt-none:hover{border:1px solid #FFF;}
+#dashboards_panel div.dashboards_panel_main div.dashboard-elt-none img.loader{margin-top:8em;}
+#dashboards_panel div.dashboards_panel_main div.dashboard-elt-none img.new{margin-top:5em;cursor:pointer;}
+#dashboards_panel div.dashboards_panel_main div.dashboard-elt-none p{cursor:pointer;}
+#dashboards_panel div.dashboards_panel_main #elt_1,#dashboards_panel div.dashboards_panel_main #elt_3{float:left;left:2em;}
+#dashboards_panel div.dashboards_panel_main #elt_2,#dashboards_panel div.dashboards_panel_main #elt_4{float:right;right:2em;}
+#dashboards_panel div.dashboards_panel_main #elt_1,#dashboards_panel div.dashboards_panel_main #elt_2{top:2em;}
+#dashboards_panel div.dashboards_panel_main #elt_3,#dashboards_panel div.dashboards_panel_main #elt_4{bottom:0;}
+#dashboards_panel div.dashboards_list{background-color:#666;border:1px solid #FFF;height:11em;margin-left:7em;margin-top:3em;position:absolute;width:30em;}
+
+#dashboards_list{padding:0.5em;}
+#dashboards_list img.loader{vertical-align:middle;margin-right:1em;}
+#dashboards_list div#dashboards_list_container{height:10em;}
+#dashboards_list div#dashboards_list_container div.dashlist-elt input[type="radio"]{margin:0.2em 0;width:2em;}
+

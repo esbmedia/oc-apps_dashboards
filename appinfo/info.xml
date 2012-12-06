@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<info>
+	<id>dashboards</id>
+	<name>Dashboards</name>
+	<description>Display applications dashboards if a dashboard directory exists in the app folder.</description>
+	<version>1.1.2</version>
+	<licence>AGPL</licence>
+	<author>Xavier Beurois (www.djazz-lab.net)</author>
+	<require>4</require>
+	<shipped>true</shipped>
+</info>
